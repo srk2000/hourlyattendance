@@ -49,7 +49,7 @@ while(True):
         url="https://i36bw98emf.execute-api.us-east-1.amazonaws.com/people_counting?rollno="+str
         resp = requests.get(url)
         print(resp)
-    time.sleep(5);    
+    time.sleep(60*60);    
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
