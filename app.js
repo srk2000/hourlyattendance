@@ -8,6 +8,6 @@ app.get("/", (req,res)=> {
 	res.render("index.ejs");
 });
 
-// app.listen(3000,function(req,res){
-// 	console.log("hourlyattendance app started")
-// });
+app.listen(3000,function(req,res){
+	console.log("hourlyattendance app started")
+});
