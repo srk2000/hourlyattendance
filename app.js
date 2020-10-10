@@ -5,7 +5,7 @@ const app = express();
 
 
 app.get("/", (req,res)=> {
-	res.render("index.html");
+	res.render("index.ejs");
 });
 
 // app.listen(3000,function(req,res){
